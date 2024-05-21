@@ -1,0 +1,42 @@
+
+body{
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #F8F4E1, #74512D);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+button:active {
+    font-size: 20px;
+    color: red;
+}
+
+input:focus {
+    border: 2px solid blue;
+}
+
+input[type='text'] {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: green;
+}
+
+a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+a:active {
+    font-weight: bold;
+}
